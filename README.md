@@ -1,3 +1,6 @@
+# Install
+    npm install
+
 # Run Unit Tests
 
 Note Mocka looks for a test directory
@@ -6,3 +9,6 @@ Note Mocka looks for a test directory
 
 # Run Code Coverage
     ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --compilers js:babel-register
+    
+# Open index.html in a browser
+    ./coverage/lcov-report/index.html
